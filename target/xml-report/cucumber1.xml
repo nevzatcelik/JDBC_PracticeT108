@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.24">
+    <testcase classname="US0016 DATA BASE TEST" name="Database üzerinden death_report tablosundaki ölüm tarihlerine göre en son ölen hastanin guardian_name bilgisinin Kane Stark oldugunu dogrulayiniz." time="1.106">
+        <system-out>
+            <![CDATA[* Kullanici data base baglantinisi kurmak icin "select death_date,guardian_name from heallife_hospitaltraining.death_report where death_date order by death_date desc limit 1" gerekli ayarlamalari yapar.passed
+* Kullanici data base den gelen "guardian_name" in "Kane Stark" a ait oldugunu dogrular.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
